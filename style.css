@@ -1,0 +1,15 @@
+/*
+Theme Name: LKOD IDSK3
+Theme URI:
+Author: LKOD
+Author URI:
+Description: WordPress téma pre Lokálny katalóg otvorených dát (DCAT-AP-SK), postavená na oficiálnom dizajn manuáli IDSK 3 (@id-sk/frontend@3.0.0-beta.0). Frontend je Vue 3 napojený na REST API pluginu WP-LKOD. Použité komponenty: govuk-header, govuk-footer, idsk-card, govuk-accordion, govuk-table.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lkod-idsk3
+Tags: idsk, govuk, open-data, dcat, slovakia
+*/
