@@ -1,13 +1,14 @@
-# LKOD IDSK 3 — WordPress téma
+# Lokálny katalóg otvorených dát pre WordPress (WP-LKOD)
 
-Téma pre **Lokálny katalóg otvorených dát (LKOD)** samospráv, postavená na oficiálnom
+**Lokálny katalóg otvorených dát pre WordPress** je riešenie publikovania otvorených dát určené pre samosprávy, organizácie štátnej a verejnej správy postavené na oficiálnom
 **dizajn manuáli IDSK 3** ([@id-sk/frontend](https://www.npmjs.com/package/@id-sk/frontend) `3.0.0-beta.0`).
 Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; metadáta sú v štandarde
-**DCAT‑AP‑SK**.
+**DCAT‑AP‑SK**. Súčasťou inštalačného balíka je téma a plugin pre WordPress.
 
 - **Verzia:** 1.0.0
 - **Licencia:** GPL‑2.0‑or‑later
 - **Text domain:** `lkod-idsk3`
+- **Vydavateľ:** `Ministerstvo investícií, regionálneho rozvoja a informtizácie SR`
 
 ---
 
