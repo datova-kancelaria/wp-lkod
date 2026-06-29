@@ -3,12 +3,12 @@
 **Lokálny katalóg otvorených dát pre WordPress** je riešenie publikovania otvorených dát určené pre samosprávy, organizácie štátnej a verejnej správy postavené na oficiálnom
 **dizajn manuáli IDSK 3** ([@id-sk/frontend](https://www.npmjs.com/package/@id-sk/frontend) `3.0.0-beta.0`).
 Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; metadáta sú v štandarde
-**DCAT‑AP‑SK**. Súčasťou inštalačného balíka je téma a plugin pre WordPress.
+**DCAT‑AP‑SK**. Súčasťou inštalačného balíka je téma `lkod-idsk3` a plugin `WP-LKOD` pre WordPress.
 
 - **Verzia:** 1.0.0
 - **Licencia:** GPL‑2.0‑or‑later
 - **Text domain:** `lkod-idsk3`
-- **Vydavateľ:** `Ministerstvo investícií, regionálneho rozvoja a informtizácie SR`
+- **Vydavateľ:** Ministerstvo investícií, regionálneho rozvoja a informtizácie SR
 
 ---
 
