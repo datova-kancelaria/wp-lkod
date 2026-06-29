@@ -31,7 +31,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 
 | Komponent | Minimum |
 |---|---|
-| WordPress | 6.0+ (testované do 6.7) |
+| WordPress | 6.7 alebo 6.9 |
 | PHP | 8.0+ |
 | Plugin **WP‑LKOD** | **povinný** — registruje typy obsahu (datasety, dátové služby…) a číselníky |
 
