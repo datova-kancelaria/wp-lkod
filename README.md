@@ -46,9 +46,9 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 ## Inštalácia
 
 1. V administrácii: **Vzhľad → Témy → Pridať novú → Nahrať tému**.
-2. Nahrajte súbor `lkod-idsk3-v1.0.0.zip` a kliknite **Inštalovať**.
+2. Nahrajte súbor `lkod-idsk3-v1.0.0.zip` a kliknite na tlačidlo **Inštalovať**.
 3. Uistite sa, že je aktívny plugin **WP‑LKOD**.
-4. Kliknite **Aktivovať**.
+4. Kliknite na tlačidlo **Aktivovať**.
 
 Alternatívne rozbaľte priečinok `lkod-idsk3/` do `wp-content/themes/`.
 
