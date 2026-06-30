@@ -38,7 +38,8 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 > ⚠️ **Téma bez pluginu WP‑LKOD nefunguje.** Plugin definuje vlastné typy obsahu
 > (`dcat_dataset`, `dcat_data_service`, `dcat_contact_point`, `dcat_category`) a REST
 > číselníky (`/wp-json/wp-lkod/v1/…`), z ktorých téma číta. IDSK 3 (CSS/JS) je už
-> súčasťou témy v `assets/idsk/` — netreba ho inštalovať zvlášť.
+> súčasťou témy v `assets/idsk/` — netreba ho inštalovať zvlášť. Plugin WP-LKOD je tiež
+> súčasťou témy v `inc/required-plugins/` — netreba ho inštalovať zvlášť.
 
 ---
 
