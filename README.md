@@ -131,7 +131,11 @@ Slug datasetu aj článku sa po uložení automaticky odvodí od názvu (pekné 
 ## Harvestácia LKOD
 
 Plugin automatizovane vytvára lokálny katalóg otvorených dát vo formáte Turtle v súlade so štandardom DCAT-AP-SK ktorý je možné zaregistrovať na data.slovensko.sk.
-Tým sa zebezpečí automatizované publikovanie datasetov na data.slovensko.sk. 
+Tým sa zabezpečí automatizované publikovanie datasetov na data.slovensko.sk - centrálny portál otvorených dát verejnej správy. 
+Postup:
+
+1. Zapnite publikovanie LKOD v nastaveniach pluginu. Poznačte si adresu prístupového bodu.
+2. Zaregistrujte LKOD na data.slovensko.sk. Ako prístupový bod vyplňte adresu, ktoré ste si poznačili. Viac informácií: https://slovak-egov.atlassian.net/wiki/spaces/opendata/pages/20055786/Ako+m+em+automatizovane+publikova+otvoren+daje+na+data.slovensko.sk
 
 ---
 
