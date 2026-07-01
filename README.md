@@ -8,7 +8,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 - **Verzia:** 1.0.0
 - **Licencia:** GPL‑2.0‑or‑later
 - **Text domain:** `lkod-idsk3`
-- **Vydavateľ:** Ministerstvo investícií, regionálneho rozvoja a informtizácie SR
+- **Vydavateľ:** Ministerstvo investícií, regionálneho rozvoja a informatizácie SR
 
 ---
 
