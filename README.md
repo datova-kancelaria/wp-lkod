@@ -111,7 +111,9 @@ prevádzkovateľa, RSS, Mapa stránky. Každý odkaz sa zobrazí v pätičke len
 ## Správa obsahu
 
 Administrácia → **Lokálny katalóg**
+
 Administrácia → **Články**
+
 Obsah pridávate cez typy, ktoré registruje plugin **WP‑LKOD**:
 
 | Typ | Účel | Kde sa zobrazí |
