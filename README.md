@@ -19,11 +19,12 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 3. [Prvé spustenie](#prvé-spustenie)
 4. [Nastavenia témy](#nastavenia-témy)
 5. [Správa obsahu](#správa-obsahu)
-6. [Stránky a šablóny](#stránky-a-šablóny)
-7. [Pätička a povinná publicita](#pätička-a-povinná-publicita)
-8. [REST API](#rest-api)
-9. [Pre vývojárov](#pre-vývojárov)
-10. [Prístupnosť a dizajn manuál](#prístupnosť-a-dizajn-manuál)
+6. [Harvestácia LKOD](#harvestácia-lkod)
+7. [Stránky a šablóny](#stránky-a-šablóny)
+8. [Pätička a povinná publicita](#pätička-a-povinná-publicita)
+9. [REST API](#rest-api)
+10. [Pre vývojárov](#pre-vývojárov)
+11. [Prístupnosť a dizajn manuál](#prístupnosť-a-dizajn-manuál)
 
 ---
 
@@ -124,6 +125,13 @@ distribúcii s prístupovou službou — kompletný detail dátovej služby (URL
 HVD kategória, právny predpis, kontaktný bod, dokumentácia, špecifikácia).
 
 Slug datasetu aj článku sa po uložení automaticky odvodí od názvu (pekné URL).
+
+---
+
+## Harvestácia LKOD
+
+Plugin automatizovane vytvára lokálny katalóg otvorených dát vo formáte Turtle v súlade so štandardom DCAT-AP-SK ktorý je možné zaregistrovať na data.slovensko.sk.
+Tým sa zebezpečí automatizované publikovanie datasetov na data.slovensko.sk. 
 
 ---
 
