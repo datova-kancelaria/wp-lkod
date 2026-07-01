@@ -136,6 +136,7 @@ Slug datasetu aj článku sa po uložení automaticky odvodí od názvu (pekné 
 
 Plugin automatizovane vytvára lokálny katalóg otvorených dát vo formáte Turtle v súlade so štandardom DCAT-AP-SK ktorý je možné zaregistrovať na data.slovensko.sk.
 Tým sa zabezpečí automatizované publikovanie datasetov na data.slovensko.sk - centrálny portál otvorených dát verejnej správy. 
+
 Postup:
 
 1. Zapnite publikovanie LKOD v nastaveniach pluginu. Poznačte si adresu prístupového bodu.
