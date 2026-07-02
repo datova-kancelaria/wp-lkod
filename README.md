@@ -40,7 +40,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 > (`dcat_dataset`, `dcat_data_service`, `dcat_contact_point`, `dcat_category`) a REST
 > číselníky (`/wp-json/wp-lkod/v1/…`), z ktorých téma číta. IDSK 3 (CSS/JS) je už
 > súčasťou témy v `assets/idsk/` — netreba ho inštalovať zvlášť. Plugin WP-LKOD je tiež
-> súčasťou témy v `inc/required-plugins/` — netreba ho inštalovať zvlášť.
+> súčasťou témy v `inc/required-plugins/` — WordPress vás sám vyzve na inštaláciu pluginu.
 
 ---
 
@@ -48,8 +48,10 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 
 1. V administrácii: **Vzhľad → Témy → Pridať novú → Nahrať tému**.
 2. Nahrajte súbor `lkod-idsk3-v1.0.0.zip` a kliknite na tlačidlo **Inštalovať**.
-3. Uistite sa, že je aktívny plugin **WP‑LKOD**.
-4. Kliknite na tlačidlo **Aktivovať**.
+3. Zobrazí sa upozornenie, že je vyžadovaný plugin *Lokálny katalóg otvorených dát*. Kliknite na **Spustiť inštaláciu pluginu**.
+4. Kliknite na **Inštalovať**.
+5. Uistite sa, že je aktívny plugin **WP‑LKOD**, v administrácii: **Pluginy → Nainštalované pluginy**
+6. Kliknite na tlačidlo **Aktivovať**.
 
 Alternatívne rozbaľte priečinok `lkod-idsk3/` do `wp-content/themes/`.
 
