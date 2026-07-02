@@ -50,8 +50,8 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 2. Nahrajte súbor `lkod-idsk3-v1.0.0.zip` a kliknite na tlačidlo **Inštalovať**.
 3. Zobrazí sa upozornenie, že je vyžadovaný plugin *Lokálny katalóg otvorených dát*. Kliknite na **Spustiť inštaláciu pluginu**.
 4. Kliknite na **Inštalovať**.
-5. Uistite sa, že je aktívny plugin **WP‑LKOD**, v administrácii: **Pluginy → Nainštalované pluginy**
-6. Kliknite na tlačidlo **Aktivovať**.
+5. Uistite sa, že je aktívny plugin **WP‑LKOD (Lokálny katalóg otvorených dát)**, v administrácii: **Pluginy → Nainštalované pluginy**
+6. Kliknite na **Aktivovať**.
 
 Alternatívne rozbaľte priečinok `lkod-idsk3/` do `wp-content/themes/`.
 
