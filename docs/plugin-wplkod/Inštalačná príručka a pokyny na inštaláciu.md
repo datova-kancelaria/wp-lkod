@@ -35,7 +35,7 @@ Po prihlásení do administračného rozhrania redakčného systému WordPress j
 
 Pokračujte stlačením tlačidla "Nahrať plugin" a nahrajte súbor wplkod.zip do ponúkaného administračného rozhrania. Následne potvrďte inštaláciu pomocou tlačidla "Inštalovať teraz".
 
-!\[791](docs/plugin-wplkod/attachments/nahrat-plugin.png)
+!\[791](/docs/plugin-wplkod/attachments/nahrat-plugin.png)
 
 Potvrdená inštalácia plugin prebehne a zobrazí sa hlásenie umožňujúce aktiváciu pluginu pomocou tlačidla "Aktivovať plugin".
 
