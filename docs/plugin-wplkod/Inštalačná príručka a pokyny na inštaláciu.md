@@ -26,14 +26,16 @@ Odporúčané nastavenia PHP sú:
 Pluginu musí byť tiež umožnené pristupovať k externým zdrojom, najmä pre prístup k číselníkovým hodnotám podľa špecifikácie DCAT-AP-SK.
 
 Aktuálnu verziu inštalačného balíčka pluginu je možné získať z na adrese:
+
 https://github.com/datova-kancelaria/wp-lkod/tree/main/inc/required-plugins
+
 Poslednú verziu balíčka vo formáte wp-lkod.zip je potrebné pred inštaláciou stiahnuť.
 
 Po prihlásení do administračného rozhrania redakčného systému WordPress je potrebné prejsť do modulu Pluginy > Pridať plugin.
 
 ![788](attachments/pridat-pluginy.png)
 
-Pokračujte stlačením tlačidla "Nahrať plugin" a nahrajte súbor wplkod.zip do ponúkaného administračného rozhrania. Následne potvrďte inštaláciu pomocou tlačidla "Inštalovať teraz".
+Pokračujte stlačením tlačidla "Nahrať plugin" a nahrajte súbor wp-lkod.zip do ponúkaného administračného rozhrania. Následne potvrďte inštaláciu pomocou tlačidla "Inštalovať teraz".
 
 ![791](attachments/nahrat-plugin.png)
 
