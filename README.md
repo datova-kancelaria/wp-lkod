@@ -74,7 +74,7 @@ Odporúčané kroky po aktivácii:
 2. **Vzhľad → Menu** — priraďte menu k pozícii *Hlavná navigácia* (ak nepriradíte, použije sa
    predvolené: Domov, Vyhľadávanie, Poskytovatelia dát).
 3. **Nastavenia témy** — vyplňte logo, názov, pätičku a odkazy (viď nižšie).
-4. [**Nastavenia pluginu**](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md) — nastavte poskytovateľa/ov, jazykové verzie metaúdajov, nastavenia lokálneho katalógu pre harvestáciu, prednastavené hodnoty, vlastné metaúdaje
+4. [**Nastavenia pluginu**](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md) — nastavte poskytovateľa/ov, kontaktné body, jazykové verzie metaúdajov, nastavenia lokálneho katalógu pre harvestáciu, prednastavené hodnoty, vlastné metaúdaje
 5. Administrácia → **Lokálny katalóg → Kategórie** — upravte kategórie podľa toho, ktoré chcete využívať, tieto sa zobrazia na titulnej strane a bude možné do nich zaradiť datasety (napr. Doprava, Financie, Školstvo, apod.)
 ---
 
