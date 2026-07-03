@@ -31,19 +31,19 @@ Poslednú verziu balíčka vo formáte wp-lkod.zip je potrebné pred inštaláci
 
 Po prihlásení do administračného rozhrania redakčného systému WordPress je potrebné prejsť do modulu Pluginy > Pridať plugin.
 
-!\[788](plugin-wplkod//attachments/pridat-pluginy.png)
+![788](attachments/pridat-pluginy.png)
 
 Pokračujte stlačením tlačidla "Nahrať plugin" a nahrajte súbor wplkod.zip do ponúkaného administračného rozhrania. Následne potvrďte inštaláciu pomocou tlačidla "Inštalovať teraz".
 
-!\[791](plugin-wplkod/attachments/nahrat-plugin.png)
+![791](attachments/nahrat-plugin.png)
 
 Potvrdená inštalácia plugin prebehne a zobrazí sa hlásenie umožňujúce aktiváciu pluginu pomocou tlačidla "Aktivovať plugin".
 
-!\[661](attachments/instalovat.png)
+![661](attachments/instalovat.png)
 
 Skontrolovať výsledok inštalácie je možné v rámci administračného rozhrania redakčného systému v module Pluginy > Nainštalované pluginy. Plugin "Lokálny katalóg otvorených dát" by sa mal nachádzať v zozname a zároveň byť aktivovaný.
 
-!\[797](attachments/pluginy.png)
+![797](attachments/pluginy.png)
 Pred začatím práce s metadátami otvorených dát je potrebná konfigurácia lokálneho katalógu. Bližšie informácie sa nachádzajú v Konfiguračnej príručke.
 
 ## Aktualizácia pluginu
@@ -51,5 +51,5 @@ Pred začatím práce s metadátami otvorených dát je potrebná konfigurácia 
 Pred inštaláciou novej verzie pluginu odporúčame vykonať plné zálohovanie celého redakčného systému.
 Pre aktualizáciu nainštalovaného pluginu je potrebné vykonať rovnaký postup ako pri prvotnej inštalácii: nahrať nový zip súbor, ale počas inštalácie je nevyhnutné potvrdiť prepísanie nainštalovaného pluginu novou verziou:
 
-!\[788](attachments/aktualizacia.png)
+![788](attachments/aktualizacia.png)
 
