@@ -31,7 +31,7 @@ Poslednú verziu balíčka vo formáte wp-lkod.zip je potrebné pred inštaláci
 
 Po prihlásení do administračného rozhrania redakčného systému WordPress je potrebné prejsť do modulu Pluginy > Pridať plugin.
 
-!\[788](attachments/pridat-pluginy.png)
+!\[788](./attachments/pridat-pluginy.png)
 
 Pokračujte stlačením tlačidla "Nahrať plugin" a nahrajte súbor wplkod.zip do ponúkaného administračného rozhrania. Následne potvrďte inštaláciu pomocou tlačidla "Inštalovať teraz".
 
