@@ -245,6 +245,10 @@ Téma číta meta polia a číselníky pluginu WP‑LKOD. Mapovanie meta → fro
 vo `functions.php` (`lkod_distributions`, `lkod_data_service`, `lkod_dataset_row`…). Pri
 zmene dátového modelu pluginu skontrolujte tieto helpery.
 
+### Dokumentácia pluginu
+
+Dokumentácia je uložená v priečinku [docs/plugin-wplkod](https://github.com/datova-kancelaria/wp-lkod/tree/main/docs/plugin-wplkod).
+
 ---
 
 ## Prístupnosť a dizajn manuál
