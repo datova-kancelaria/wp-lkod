@@ -5,7 +5,7 @@ Viac informácií je možné získať v dokumentácii redakčného systému Word
 Pre prevádzku redakčného systému WordPress je potrebné vlastniť alebo mať prístup k webovému hostingu (webhosting) alebo k serveru, na ktorom bude redakčný systém prevádzkovaný. Existuje množstvo komerčných služieb, ktoré prevádzku redakčného systému WordPress uľahčujú a zložitosť inštalácie, konfigurácie a samostatnej prevádzky znižujú na minimum.
 
 WordPress plugin pre prevádzku Lokálneho katalógu otvorených dát je navrhnutý tak, aby nevyžadoval špecificky žiadnu pravidelnú alebo nepravidelnú údržbu s výnimkou:
-- pravidelnej kontroly nových verzií pluginu na adrese ==doplniť== (odporúča sa minimálne raz za mesiac).
+- pravidelnej kontroly nových verzií pluginu na adrese https://github.com/datova-kancelaria/wp-lkod/tree/main/inc/required-plugins (odporúča sa minimálne raz za mesiac).
 
 Pre úspešnú prevádzku odporúčame zabezpečiť vykonávanie týchto štandardných úloh prevádzkovania redakčného systému WordPress:
 * pravidelné zálohovanie min. 1x denne,
