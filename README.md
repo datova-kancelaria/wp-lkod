@@ -148,7 +148,7 @@ Postup:
 3. Poznačte si adresu prístupového bodu. (Administrácia → Lokálny katalóg → RDF výstup). 
 4. Zaregistrujte LKOD na data.slovensko.sk. Ako prístupový bod vyplňte adresu, ktoré ste si poznačili. Viac informácií: https://slovak-egov.atlassian.net/wiki/spaces/opendata/pages/20055786/Ako+m+em+automatizovane+publikova+otvoren+daje+na+data.slovensko.sk
 
-Viac informácií o nastaveniach LKOD nájdete v [Konfiguračná príručka a pokyny pre diagnostiku](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md), časť Nastavenia lokálneho katalógu - integračného výstupu katalógu a v [Integračná príručka](docs/plugin-wplkod//Integračná%20príručka.md). 
+Viac informácií o nastaveniach LKOD, ktoré sa týkajú harvestácie nájdete v [Konfiguračná príručka a pokyny pre diagnostiku](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md), časť Nastavenia lokálneho katalógu - integračného výstupu katalógu a v [Integračná príručka](docs/plugin-wplkod//Integračná%20príručka.md). 
 
 ---
 
