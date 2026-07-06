@@ -76,6 +76,7 @@ Odporúčané kroky po aktivácii:
 3. **Nastavenia témy** — vyplňte logo, názov, pätičku a odkazy (viď nižšie).
 4. [**Nastavenia pluginu**](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md) — nastavte poskytovateľa/ov, kontaktné body, jazykové verzie metaúdajov, nastavenia lokálneho katalógu pre harvestáciu, prednastavené hodnoty, vlastné metaúdaje
 5. Administrácia → **Lokálny katalóg → Kategórie** — upravte kategórie podľa toho, ktoré chcete využívať, tieto sa zobrazia na titulnej strane a bude možné do nich zaradiť datasety (napr. Doprava, Financie, Školstvo, apod.)
+6. Hotovo! Môžete začať pridávať obsah - datasety, články, atď.
 ---
 
 ## Nastavenia témy
@@ -147,7 +148,7 @@ Postup:
 3. Poznačte si adresu prístupového bodu. (Administrácia → Lokálny katalóg → RDF výstup). 
 4. Zaregistrujte LKOD na data.slovensko.sk. Ako prístupový bod vyplňte adresu, ktoré ste si poznačili. Viac informácií: https://slovak-egov.atlassian.net/wiki/spaces/opendata/pages/20055786/Ako+m+em+automatizovane+publikova+otvoren+daje+na+data.slovensko.sk
 
-Viac informácií o nastaveniach LKOD nájdete v [Konfiguračná príručka a pokyny pre diagnostiku](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md), časť Nastavenia lokálneho katalógu - integračného výstupu katalógu.
+Viac informácií o nastaveniach LKOD nájdete v [Konfiguračná príručka a pokyny pre diagnostiku](docs/plugin-wplkod/Konfiguračná%20príručka%20a%20pokyny%20pre%20diagnostiku.md), časť Nastavenia lokálneho katalógu - integračného výstupu katalógu a v [Integračná príručka](docs/plugin-wplkod//Integračná%20príručka.md). 
 
 ---
 
