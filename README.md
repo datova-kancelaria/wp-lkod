@@ -51,6 +51,8 @@ Odporúčané nastavenia PHP sú:
 |upload\_max\_filesize|50M alebo viac|
 |max\_execution\_time|60 alebo viac|
 
+Pluginu musí byť umožnené pristupovať k externým zdrojom, najmä pre prístup k číselníkovým hodnotám podľa špecifikácie DCAT-AP-SK.
+
 ---
 
 ## Inštalácia
