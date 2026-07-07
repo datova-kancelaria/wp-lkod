@@ -266,7 +266,7 @@ Dokumentácia k pluginu je uložená v priečinku [docs/plugin-wplkod](https://g
 
 Téma dodržiava **Jednotný dizajn manuál slovenského webu (IDSK 3)** — komponenty
 `govuk-header`, `govuk-footer`, `idsk-card`, `govuk-accordion`, `govuk-table` a ich
-prístupnostné vzory (focus stavy, ARIA, sémantické nadpisy, drobčeková navigácia).
+prístupnostné vzory (focus stavy, ARIA, sémantické nadpisy, omrvinková navigácia).
 Cieľom je súlad s WCAG 2.1 AA, ako vyžaduje legislatíva pre weby verejnej správy SR.
 
 ---
