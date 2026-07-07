@@ -25,6 +25,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 9. [REST API](#rest-api)
 10. [Pre vývojárov](#pre-vývojárov)
 11. [Prístupnosť a dizajn manuál](#prístupnosť-a-dizajn-manuál)
+12. [Licencia](#licencia)
 
 ---
 
@@ -270,4 +271,10 @@ Cieľom je súlad s WCAG 2.1 AA, ako vyžaduje legislatíva pre weby verejnej sp
 
 ---
 
-*Téma je určená na ďalšiu distribúciu samosprávam. Otázky a úpravy konzultujte s autorom.*
+## Licencia
+
+Licencia
+ 
+Lokálny katalóg otvorených dát pre WordPress (WP-LKOD) je uvoľnený pod EUPL-1.2 licenciou — môžete ho používať, upravovať aj ďalej šíriť bezplatne, vrátane komerčného nasadenia. Ak budete mať otázky, napíšte nám na opendata@mirri.gov.sk. 
+Súčasťou balíka je knižnica TGM Plugin Activation (GPL‑2.0+) — licencia je kompatibilná s voľnou distribúciou.
+
