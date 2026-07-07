@@ -107,8 +107,7 @@ URL na Facebook, Instagram, LinkedIn. Prázdne pole = odkaz sa nezobrazí.
 
 ### Právne odkazy a prevádzkovateľ
 Zásady ochrany súkromia, Podmienky používania, Vyhlásenie o prístupnosti, Kontakt na
-prevádzkovateľa, RSS, Mapa stránky. Každý odkaz sa zobrazí v pätičke len ak je vyplnený
-(RSS a Mapa stránky majú rozumný default).
+prevádzkovateľa, RSS, Mapa stránky. Každý odkaz sa zobrazí, len ak je pole vyplnené — s výnimkou RSS a Mapy stránky, ktoré sa zobrazia vždy: keď ich necháte prázdne, použije sa vstavaná WordPress adresa (RSS → `/feed/`, Mapa stránky → `/wp-sitemap.xml`).
 
 ---
 
