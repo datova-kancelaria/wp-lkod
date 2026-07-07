@@ -42,6 +42,15 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 > súčasťou témy v `assets/idsk/` — netreba ho inštalovať zvlášť. Plugin WP-LKOD je tiež
 > súčasťou témy v `inc/required-plugins/` — WordPress vás sám vyzve na inštaláciu pluginu.
 
+Odporúčané nastavenia PHP sú:
+|Názov|Hodnota|
+|-|-|
+|file\_uploads|On|
+|memory\_limit|256M alebo viac|
+|post\_max\_size|55M alebo viac|
+|upload\_max\_filesize|50M alebo viac|
+|max\_execution\_time|60 alebo viac|
+
 ---
 
 ## Inštalácia
