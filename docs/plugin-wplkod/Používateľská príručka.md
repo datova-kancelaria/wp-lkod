@@ -46,3 +46,5 @@ Všeobecne pre role redakčného systému platí:
 | Autor                               | áno, s publikáciou svojich objektov |
 | Editor                              | áno                                 |
 | Administrátor / Super administrátor | áno                                 |
+## Pridávanie datasetov vo formáte JSON alebo XML
+Štandardne WordPress blokuje upload týchto formátov. Ak chcete povoliť upload formátov, použite plugin, kde nastavíte povolené typy súborov napr. File Upload Types plugin.
