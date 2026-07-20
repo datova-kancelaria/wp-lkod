@@ -6,7 +6,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 **DCAT‑AP‑SK**. Súčasťou inštalačného balíka je téma **lkod-idsk3** a plugin **WP-LKOD** pre WordPress.
 
 - **Verzia:** 1.0.0
-- **Licencia:** GPL‑2.0‑or‑later
+- **Licencia:** EUPL-1.2
 - **Text domain:** `lkod-idsk3`
 - **Vydavateľ:** Ministerstvo investícií, regionálneho rozvoja a informatizácie SR
 
