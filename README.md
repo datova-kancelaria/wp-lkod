@@ -185,8 +185,8 @@ Pätička obsahuje **lištu povinnej publicity Plánu obnovy** — kombinované 
 - Obrázok: `assets/images/funding/funding-strip.png` (farebná verzia, transparentné pozadie)
 - Zarovnaná doprava, responzívna (max. šírka 760 px)
 
-Štruktúra a rozloženie päty (stĺpce, lišta povinnej publicity, poradie blokov) → edituje sa cez šablónu | `footer.php` |.
-Štýly päty → <style> blok v | `header.php` |, resp. wp_add_inline_style vo | `functions.php` |.
+Štruktúra a rozloženie päty (stĺpce, lišta povinnej publicity, poradie blokov) → edituje sa cez šablónu `footer.php`.
+Štýly päty → <style> blok v  `header.php`, resp. wp_add_inline_style vo  `functions.php`.
 
 Ak vaša samospráva spadá pod iný rezort, vymeňte tento obrázok za príslušnú kombináciu
 log z [planobnovy.sk → Dokumenty](https://www.planobnovy.sk/realizacia/dokumenty/).
