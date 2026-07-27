@@ -188,9 +188,6 @@ Pätička obsahuje **lištu povinnej publicity Plánu obnovy** — kombinované 
 Štruktúra a rozloženie päty (stĺpce, lišta povinnej publicity, poradie blokov) → edituje sa cez šablónu `footer.php`.
 Štýly päty → `<style>` blok v  `header.php`, resp. `wp_add_inline_style` vo  `functions.php`.
 
-Ak vaša samospráva spadá pod iný rezort, vymeňte tento obrázok za príslušnú kombináciu
-log z [planobnovy.sk → Dokumenty](https://www.planobnovy.sk/realizacia/dokumenty/).
-
 ---
 
 ## REST API
