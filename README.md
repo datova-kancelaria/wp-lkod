@@ -12,7 +12,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 
 Funkcie:
 - jednoduchý lokálny portál otvorených dát
-- vyhľadávanie, filtrovanie datasetov
+- vyhľadávanie, filtrovanie datasetov, zoznam poskytovateľov, články
 - rozdelenie datasetov do kategórií, ktoré si definuje poskytovateľ
 - titulná strana obsahuje ikony kategórií a najnovšie články
 - definovanie vlastných metadát
