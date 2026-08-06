@@ -10,7 +10,7 @@ Frontend tvoria odľahčené **Vue 3** aplikácie napojené na **REST API**; met
 - **Text domain:** `lkod-idsk3`
 - **Vydavateľ:** Ministerstvo investícií, regionálneho rozvoja a informatizácie SR
 
-Riešenie poskytuje:
+Funkcie:
 - jednoduchý lokálny portál otvorených dát
 - vyhľadávanie, filtrovanie datasetov
 - rozdelenie datasetov do kategórií, ktoré si definuje poskytovateľ
