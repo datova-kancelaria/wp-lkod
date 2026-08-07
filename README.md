@@ -14,7 +14,7 @@ Funkcie:
 - jednoduchý lokálny portál otvorených dát
 - vyhľadávanie, filtrovanie datasetov, zoznam poskytovateľov, články
 - rozdelenie datasetov do kategórií, ktoré si definuje poskytovateľ
-- titulná strana obsahuje ikony kategórií a najnovšie články
+- titulná strana obsahuje zoznam kategórií a najnovšie články
 - definovanie vlastných metadát
 - harvestovanie datasetov na data.slovensko.sk
 - ľubovoľný počet poskytovateľov (len jeden z nich sa použije pre harvestovanie datasetov)
