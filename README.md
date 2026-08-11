@@ -66,12 +66,13 @@ Pluginu musí byť umožnené pristupovať k externým zdrojom, najmä pre prís
 
 ## Inštalácia
 
-1. V administrácii: **Vzhľad → Témy → Pridať novú → Nahrať tému**.
-2. Nahrajte súbor `lkod-idsk3-v1.0.0.zip` a kliknite na tlačidlo **Inštalovať**.
-3. Zobrazí sa upozornenie, že je vyžadovaný plugin *Lokálny katalóg otvorených dát*. Kliknite na **Spustiť inštaláciu pluginu**.
-4. Kliknite na **Inštalovať**.
-5. Uistite sa, že je aktívny plugin **WP‑LKOD (Lokálny katalóg otvorených dát)**, v administrácii: **Pluginy → Nainštalované pluginy**
-6. Kliknite na **Aktivovať**.
+1. [Stiahnite si ZIP súbor](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#downloading-source-code-archives-from-the-repository-view) z tohto repozitára - Code > Download ZIP. 
+2. V administrácii: **Vzhľad → Témy → Pridať novú → Nahrať tému**.
+3. Nahrajte súbor ZIP súbor a kliknite na tlačidlo **Inštalovať**.
+4. Zobrazí sa upozornenie, že je vyžadovaný plugin *Lokálny katalóg otvorených dát*. Kliknite na **Spustiť inštaláciu pluginu**.
+5. Kliknite na **Inštalovať**.
+6. Uistite sa, že je aktívny plugin **WP‑LKOD (Lokálny katalóg otvorených dát)**, v administrácii: **Pluginy → Nainštalované pluginy**
+7. Kliknite na **Aktivovať**.
 
 Alternatívne rozbaľte priečinok `lkod-idsk3/` do `wp-content/themes/`.
 
