@@ -69,7 +69,7 @@ Pluginu musí byť umožnené pristupovať k externým zdrojom, najmä pre prís
 1. [Stiahnite si ZIP súbor](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#downloading-source-code-archives-from-the-repository-view) tohto repozitára: **Code → Download ZIP**. 
 2. V administrácii: **Vzhľad → Témy → Pridať novú → Nahrať tému**.
 3. Nahrajte ZIP súbor a kliknite na tlačidlo **Inštalovať**.
-4. Zobrazí sa upozornenie, že je vyžadovaný plugin *Lokálny katalóg otvorených dát*. Kliknite na **Spustiť inštaláciu pluginu**.
+4. Zobrazí sa upozornenie, že je vyžadovaný plugin **Lokálny katalóg otvorených dát**. Kliknite na **Spustiť inštaláciu pluginu**.
 5. Kliknite na **Inštalovať**.
 6. Uistite sa, že je aktívny plugin **WP‑LKOD (Lokálny katalóg otvorených dát)**, v administrácii: **Pluginy → Nainštalované pluginy**
 7. Kliknite na **Aktivovať**.
