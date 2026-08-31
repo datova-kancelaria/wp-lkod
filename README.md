@@ -19,6 +19,7 @@ Funkcie:
 - harvestovanie datasetov na data.slovensko.sk
 - ľubovoľný počet poskytovateľov (len jeden z nich sa použije pre harvestovanie datasetov)
 ---
+Náhľad na portál: data.mirri.gov.sk
 
 ## Obsah
 
