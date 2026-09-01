@@ -20,6 +20,7 @@ Funkcie:
 - ľubovoľný počet poskytovateľov (len jeden z nich sa použije pre harvestovanie datasetov)
 
 🔍 Náhľad na portál: https://data.mirri.gov.sk
+
 ---
 
 ## Obsah
