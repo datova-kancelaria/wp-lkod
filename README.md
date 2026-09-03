@@ -77,7 +77,7 @@ Pluginu musí byť umožnené pristupovať k externým zdrojom, najmä pre prís
 6. Uistite sa, že je aktívny plugin **WP‑LKOD (Lokálny katalóg otvorených dát)**, v administrácii: **Pluginy → Nainštalované pluginy**
 7. Kliknite na **Aktivovať**.
 
-Alternatívne rozbaľte priečinok `lkod-idsk3/` do `wp-content/themes/`.
+Alternatívne rozbaľte priečinok `wp-lkod-main/` do `wp-content/themes/`.
 
 ---
 
