@@ -233,7 +233,7 @@ function lkod_distribution_service(array $d): array {
     $post = get_post($sid);
     if (!$post || $post->post_type !== 'dcat_data_service') return ['name' => '', 'url' => ''];
     return [
-        'name' => get_the_title($post),
+        'name' => lkod_plain_text(get_the_title($post)),
         'url'  => (string) get_post_meta($sid, 'endpoint_url', true),
     ];
 }
@@ -247,7 +247,7 @@ function lkod_data_service(array $d): ?array {
     if (!$post || $post->post_type !== 'dcat_data_service') return null;
 
     return [
-        'name'           => lkod_meta_lang($sid, 'name') ?: get_the_title($post),
+        'name'           => lkod_meta_lang($sid, 'name') ?: lkod_plain_text(get_the_title($post)),
         'endpoint_url'   => (string) get_post_meta($sid, 'endpoint_url', true),
         'is_hvd'         => (bool)   get_post_meta($sid, 'is_hvd', true),
         'hvd_categories' => array_values(array_filter(array_map('strval', (array) get_post_meta($sid, 'hvd_categories')))),
@@ -293,9 +293,18 @@ function lkod_distribution_title(array $d): string {
     return 'Distribúcia';
 }
 
+/* Plain text for the Vue frontend: strip tags and decode HTML entities.
+   WordPress filters (wptexturize) turn quotes, dashes and apostrophes into
+   entities such as &#8222; / &#8220; / &#8211;, and Vue's {{ }} would print
+   them literally. Vue escapes interpolated text itself, so decoding is safe
+   as long as the value is not rendered with v-html. */
+function lkod_plain_text(string $text): string {
+    return trim(html_entity_decode(wp_strip_all_tags($text), ENT_QUOTES | ENT_HTML5, 'UTF-8'));
+}
+
 /* Short plain-text excerpt of a description. */
 function lkod_excerpt(string $text, int $length = 220): string {
-    $text = wp_strip_all_tags($text);
+    $text = lkod_plain_text($text);
     if (mb_strlen($text) <= $length) return $text;
     return rtrim(mb_substr($text, 0, $length)) . '…';
 }
@@ -332,7 +341,7 @@ function lkod_dataset_row(WP_Post $post): array {
 
     return array_merge([
         'id'          => $pid,
-        'title'       => get_the_title($post),
+        'title'       => lkod_plain_text(get_the_title($post)),
         'description' => lkod_excerpt(lkod_meta_lang($pid, 'description')),
         'permalink'   => get_permalink($post),
         'publisher'   => (string) get_post_meta($pid, 'publisher', true),
@@ -395,7 +404,7 @@ function lkod_contact_point(int $post_id): ?array {
     $post = get_post($cp_id);
     if (!$post || $post->post_status !== 'publish') return null;
     return [
-        'name'  => lkod_meta_lang($cp_id, 'name') ?: get_the_title($post),
+        'name'  => lkod_meta_lang($cp_id, 'name') ?: lkod_plain_text(get_the_title($post)),
         'email' => (string) get_post_meta($cp_id, 'email', true),
     ];
 }
@@ -521,7 +530,7 @@ function lkod_rest_dataset(WP_REST_Request $req): WP_REST_Response {
             'meta_query'  => [['key' => 'in_serie', 'value' => (string) $in_serie]],
         ]);
         foreach ($siblings as $s) {
-            $serie[] = ['id' => $s->ID, 'title' => get_the_title($s), 'permalink' => get_permalink($s)];
+            $serie[] = ['id' => $s->ID, 'title' => lkod_plain_text(get_the_title($s)), 'permalink' => get_permalink($s)];
         }
     }
 
@@ -557,13 +566,13 @@ function lkod_rest_dataset(WP_REST_Request $req): WP_REST_Response {
     foreach (array_filter(array_map('absint', (array) get_post_meta($id, 'categories', false))) as $cid) {
         $cpost = get_post($cid);
         if ($cpost && $cpost->post_type === 'dcat_category') {
-            $categories[] = ['id' => $cid, 'name' => get_the_title($cpost)];
+            $categories[] = ['id' => $cid, 'name' => lkod_plain_text(get_the_title($cpost))];
         }
     }
 
     return new WP_REST_Response(array_merge([
         'id'             => $id,
-        'title'          => get_the_title($post),
+        'title'          => lkod_plain_text(get_the_title($post)),
         'description'    => lkod_meta_lang($id, 'description'),
         'publisher'      => (string) get_post_meta($id, 'publisher', true),
         'theme_iris'     => array_values(array_filter((array) get_post_meta($id, 'theme'))),
@@ -709,10 +718,12 @@ function lkod_rest_homepage(WP_REST_Request $req): WP_REST_Response {
         'orderby'     => 'date',
         'order'       => 'DESC',
     ]) : [];
+    /* lkod_plain_text() decodes entities produced by wptexturize
+       (e.g. &#8222;portál&#8220;), so Vue shows „portál“ correctly. */
     $posts = array_map(static fn(WP_Post $p): array => [
         'id'        => $p->ID,
-        'title'     => get_the_title($p),
-        'excerpt'   => wp_strip_all_tags(get_the_excerpt($p) ?: wp_trim_words(get_the_content(null, false, $p), 25)),
+        'title'     => lkod_plain_text(get_the_title($p)),
+        'excerpt'   => lkod_plain_text(get_the_excerpt($p) ?: wp_trim_words(get_the_content(null, false, $p), 25)),
         'permalink' => get_permalink($p),
         'date'      => get_the_date('j.n.Y', $p),
         'thumbnail' => (string) (get_the_post_thumbnail_url($p, 'medium') ?: ''),
@@ -747,7 +758,7 @@ function lkod_rest_categories(WP_REST_Request $req): WP_REST_Response {
         $icon_url = $icon_id ? wp_get_attachment_image_url($icon_id, 'medium') : '';
         return [
             'id'        => $p->ID,
-            'name'      => get_the_title($p),
+            'name'      => lkod_plain_text(get_the_title($p)),
             'icon_url'  => (string) $icon_url,
             'permalink' => get_permalink($p),
         ];
@@ -771,4 +782,3 @@ function lkod_print_config(string $page, array $extra = []): void {
     ], $extra);
     echo '<script>window.LKOD_CONFIG = ' . wp_json_encode($cfg) . ';</script>';
 }
-
